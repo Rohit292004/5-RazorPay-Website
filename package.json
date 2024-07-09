@@ -1,12 +1,15 @@
 {
   "scripts": {
-    "start": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "buildCommand": "npm run build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
-    "vite": "^4.0.4"
+    "vite": "^4.5.3"
   },
   "dependencies": {
     "feather": "^0.0.5"
